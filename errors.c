@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * err - Prints appropiate error messages determined by their error code.
+ * errors - Prints appropiate error messages determined by their error code.i
  * @error_cd: The error codes are the following:
  * (1) => The user does not give any file or more than one file to the program.
  * (2) => The file provided is not a file that can be opened or read.
@@ -87,7 +87,7 @@ void errors_1(int error_cd, ...)
 }
 
 /**
- * stringerr - handles errors.
+ * _stringerrors - handles errors.
  * @error_cd: The error codes are the following:
  * (10) ~> The number inside a node is outside ASCII bounds.
  * (11) ~> The stack is empty.

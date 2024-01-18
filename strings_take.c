@@ -17,7 +17,7 @@ void printchar(stack_t **stack, unsigned int ln)
 	printf("%c\n", asc);
 }
 /**
- * printstr - Prints a string.
+ * _printstr - Prints a string.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @ln: Interger representing the line number of of the opcode.
  */
